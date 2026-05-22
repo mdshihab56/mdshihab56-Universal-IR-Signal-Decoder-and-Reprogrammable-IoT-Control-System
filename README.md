@@ -135,8 +135,8 @@ The system successfully decoded signals from several consumer electronic devices
 <img width="1920" height="975" alt="IR Pulse Width Distribution" src="https://github.com/user-attachments/assets/8152302b-0784-4aa6-ad53-becf756fa254" />
 
 ## 12. Limitations
-1. Line-of-Sight & Range: Requires a direct path between the remote and the VS1838B receiver, with performance dropping over longer distances or sharp angles.
-Π. Protocol Constraints: Non-standard or highly complex proprietary protocols may decode as "unknown" or return inconsistent HEX values.
+I. Line-of-Sight & Range: Requires a direct path between the remote and the VS1838B receiver, with performance dropping over longer distances or sharp angles.
+II. Protocol Constraints: Non-standard or highly complex proprietary protocols may decode as "unknown" or return inconsistent HEX values.
 III. Environmental Noise: Ambient IR interference can distort raw pulse sequences and affect timing accuracy.
 IV. Hardware Memory Limits: The Arduino Uno's ATmega328P microcontroller has limited SRAM, restricting the ability to store large multi-device lookup databases directly on the chip.
 
